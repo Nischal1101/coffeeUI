@@ -1,5 +1,13 @@
+import Navbar from "./components/Navbar";
+// import Transform from "./components/test/Transform";
+
 const App = () => {
-  return <div className="bg-red-500">hi</div>;
+  return (
+    <>
+      <Navbar />
+      {/* <Transform /> */}
+    </>
+  );
 };
 
 export default App;
