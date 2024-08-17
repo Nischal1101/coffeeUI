@@ -1,4 +1,5 @@
 import Home from "./components/Home";
+import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
 // import Transform from "./components/test/Transform";
 
@@ -7,12 +8,12 @@ const App = () => {
     <>
       <Navbar />
       <main>
-      <div id="home">
-        <Home />
-      </div>
-      <div className="menu">
-        
-      </div>
+        <div id="home">
+          <Home />
+        </div>
+        <div className="menu">
+          <Menu />
+        </div>
       </main>
       {/* <Transform /> */}
     </>

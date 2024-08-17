@@ -8,11 +8,11 @@ const Home = () => {
         <h1 className="font-semibold text-center text-5xl lg:text-start leading-tight">
           Start your day with streaming cup of coffee
         </h1>
-        <p className="text-slate-400">
+        <p className=" text-center lg:text-start">
           Boost your productivity and build your mood with a glass of coffee in
           the morning
         </p>
-        <div className="flex gap-6">
+        <div className="flex gap-6 justify-center lg:justify-start">
           <Button>ADD TO CART</Button>
           <Button>MORE MENU</Button>
         </div>
