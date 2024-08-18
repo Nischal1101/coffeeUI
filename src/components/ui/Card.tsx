@@ -8,7 +8,7 @@ interface ICardProps {
 
 const Card = ({ name, src }: ICardProps) => {
   return (
-    <div className="bg-white rounded-lg space-y-4 p-4">
+    <div className="bg-white rounded-lg space-y-4 p-4 max-w-sm">
       <div className="">
         <img src={src} alt="loading menu" className=" rounded-lg" />
       </div>

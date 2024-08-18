@@ -39,13 +39,12 @@ const Menu = () => {
   ];
 
   return (
-    // <div className="min-h-screen bg-backgroundColor px-5 lg:px-32">
     <div className="min-h-screen  justify-center lg:px-32 px-5 bg-backgroundColor pb-8">
       <h1 className="text-4xl text-center font-semibold pt-24 pb-8">
         Our Menu
       </h1>
 
-      <div className="grid grid-col-1 md:grid-cols:2 lg:grid-cols-3  gap-8">
+      <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 lg:grid-cols-3  gap-8">
         {cardItems.map((ele) => (
           <Card key={ele.name} name={ele.name} src={ele.img} />
         ))}

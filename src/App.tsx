@@ -1,6 +1,10 @@
+import About from "./components/About";
+import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Menu from "./components/Menu";
 import Navbar from "./components/Navbar";
+import Product from "./components/Product";
+import Review from "./components/Review";
 // import Transform from "./components/test/Transform";
 
 const App = () => {
@@ -11,10 +15,23 @@ const App = () => {
         <div id="home">
           <Home />
         </div>
-        <div className="menu">
+        <div id="menu">
           <Menu />
         </div>
+        <div id="about">
+          <About />
+        </div>
+        <div id="products">
+          <Product />
+        </div>
+
+        <div id="review">
+          <Review />
+        </div>
       </main>
+
+      <Footer />
+
       {/* <Transform /> */}
     </>
   );
